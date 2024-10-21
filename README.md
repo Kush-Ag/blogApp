@@ -24,44 +24,21 @@ This is a simple blog writing application built as part of a MERN workshop activ
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/blog-writing-app.git
-Navigate to the project directory:
+2. Navigate to the project directory:
+   ```bash
+   cd blogApp
+   
+3. Install the dependencies for both the client and server:
 
-bash
-Copy code
-cd blog-writing-app
-Install the dependencies for both the client and server:
-
-bash
-Copy code
-npm install
+   ```bash
+   npm install
 (If applicable) Set up environment variables (e.g., MONGO_URI, JWT_SECRET) in a .env file in the root directory.
 
-Start the client and server concurrently:
+4. Start the client and server concurrently:
 
-bash
-Copy code
-npm run dev
-Or, if you're running the frontend and backend separately:
-
-bash
-Copy code
-# Start backend
-cd backend
-npm start
-bash
-Copy code
-# Start frontend
-cd frontend
-npm start
+   ```bash
+   npm run dev
+   
 Open your browser and go to http://localhost:3000 to access the app.
-
-csharp
-Copy code
-
-You can copy this directly into your `README.md` file under the "Installation" section. Just remember to replace the GitHub URL with your actual repository link!
-
-
-
-
 
 
