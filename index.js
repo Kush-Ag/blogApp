@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const methodOverride=require("method-override")
 const app = express();
 
-mongoose.connect('mongodb+srv://nimaymalik12:hackcbs@nimay.v009n.mongodb.net/?retryWrites=true&w=majority&appName=NIMAY')
+mongoose.connect('your_mongo_db_link')//update this
     .then(() => {
         console.log("db connected");
     }).catch(() => {
